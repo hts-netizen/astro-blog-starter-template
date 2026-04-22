@@ -29,6 +29,11 @@ const { title, description, pubDate, updatedDate, heroImage } = Astro.props;
 				border-radius: 12px;
 				box-shadow: var(--box-shadow);
 			}
+			.grid-container {
+				display: grid;
+  				grid-template-columns: 1fr 1fr; /* Creates two equal fractions */
+  				gap: 20px; /* Optional spacing between columns */
+			}
 			.prose {
 				width: 1080px;
 				max-width: calc(100% - 2em);
