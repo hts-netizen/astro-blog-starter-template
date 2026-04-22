@@ -136,6 +136,13 @@ hr {
 	}
 }
 
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr; /* Creates two equal fractions */
+  gap: 20px; /* Optional spacing between columns */
+}
+
 .sr-only {
 	border: 0;
 	padding: 0;
