@@ -34,6 +34,15 @@ const { title, description, pubDate, updatedDate, heroImage } = Astro.props;
   				grid-template-columns: 1fr 1fr; /* Creates two equal fractions */
   				gap: 20px; /* Optional spacing between columns */
 			}
+			.flex-container {
+				display: flex;
+				align-items: center;
+				height: 100vh;
+			}
+			.flex-item {
+				flex: 50%; /*Each column takes up half width */
+				padding: 1em;
+			}
 			.prose {
 				width: 1080px;
 				max-width: calc(100% - 2em);
